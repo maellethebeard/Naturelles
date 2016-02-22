@@ -1,10 +1,24 @@
+body {
+	font-family: "futura-pt"
+}
+
 .header {
 	text-align: right;
-	font-family: Futura;
+	font-family: "futura-pt";
+	color: #4e5357;
 	font-size: 20px;
 	padding-top: 50px;
 	padding-right: 10px;
 
+}
+
+.icon {
+	font-size: 40px;
+	color: #4e5357;
+}
+
+.icon:hover {
+	color: #9bbc81;
 }
 
 .logo-naturelles {
@@ -15,18 +29,15 @@
 }
 
 .description {
-	font-family: Futura;
+	font-family: "futura-pt";
+	color: #4e5357;
 	line-height: 40px;
 	text-align: center;
 }
 
-#img-description {
-	display: inline-block;
-	position: absolute;
-	opacity: 0.3;
-	width: 100%;
-	top: 0;
-	left: 0;
+.bg-header {
+	background: url(img-description.jpg) no-repeat center center;
+    background-size: cover;
 }
 
 h1 {
@@ -37,17 +48,95 @@ h1 {
 
 .description-text {
 	font-size: 25px;
-	font-family: Futura;
+	font-family: "futura-pt";
+	color: #4e5357;
 	line-height: 45px;
+	padding-bottom: 150px;
 }
 
 .title-box {
-	padding-top: 400px;
+	padding-top: 150px;
+	padding-bottom: 100px;
 	text-align: center;
 	font-size: 40px;
-	font-family: Futura;
+	font-family: "futura-pt";
+	color: #4e5357;
 }
 
-.feuille {
-	width: 40px;
+.bullet-point h2:before{
+    background: url(bullet-point.png) no-repeat;
+    background-size: contain;
+    content: "";
+    width: 28px;
+    display: inline-block;
+    height: 30px;
 }
+
+.box-soins {
+	border: 20px;
+}
+
+.soins-texte, h3, h4 {
+	padding-left: 30px;
+	padding-right: 30px;
+	color: #4e5357;
+}
+
+.soins-texte {
+	font-weight: 300;
+	font-size: 16px;
+}
+
+h3 {
+	text-align: center;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	font-weight: 500;
+}
+
+h4 {
+	font-weight: 400;
+}
+
+span {
+	float: right;
+}
+
+#rond-feuille {
+	width: 120px;
+	display: block;
+	margin: auto;
+
+}
+
+.asterix {
+	font-size: 12px;
+	float: left;
+}
+
+.contact-text {
+	font-size: 20px;
+	font-family:"futura-pt";
+	color: #4e5357;
+	line-height: 30px;
+}
+
+#photo-salon-1 {
+	background: url(photo-salon-1.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#photo-salon-2 {
+	background: url(photo-salon-2.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#photo-salon-3 {
+	background: url(photo-salon-3.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.photos-salon {
+	height: 5000px;
+}
+
