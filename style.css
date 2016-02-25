@@ -145,5 +145,11 @@ span {
   .logo-naturelles {
     display: inline;
   }
+  h1 {
+    font-size: 30px;
+  }
+  .description-text {
+    font-size: 18px;
+  }
 
 }
