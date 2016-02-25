@@ -65,6 +65,15 @@ h1 {
 	color: #4e5357;
 }
 
+.title-box-soins {
+	padding-top: 150px;
+	padding-bottom: 50px;
+	text-align: center;
+	font-size: 40px;
+	font-family: "futura-pt";
+	color: #4e5357;
+}
+
 .bullet-point h2:before{
     background: url(bullet-point.png) no-repeat;
     background-size: contain;
