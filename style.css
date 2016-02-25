@@ -123,23 +123,9 @@ span {
 	line-height: 30px;
 }
 
-#photo-salon-1 {
-	background: url(photo-salon-1.jpg) no-repeat center center;
-    background-size: cover;
-}
-
-#photo-salon-2 {
-	background: url(photo-salon-2.jpg) no-repeat center center;
-    background-size: cover;
-}
-
-#photo-salon-3 {
-	background: url(photo-salon-3.jpg) no-repeat center center;
-    background-size: cover;
-}
-
-.photos-salon {
-	height: 5000px;
+.photo-salon {
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 
